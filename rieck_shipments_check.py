@@ -11,7 +11,7 @@ import streamlit as st
 # --------------------------- Config ---------------------------
 st.set_page_config(page_title="Shipment Presence Checker", page_icon="📦", layout="wide")
 
-TITLE = "📦 Shipment Presence Checker"
+TITLE = "📦 Rieck Shipment Checker"
 INTRO = (
     "Compare Excel **Shipment No.** values against files from your processed folder. "
     "We assume each processed filename begins with an **8-digit shipment number** "
