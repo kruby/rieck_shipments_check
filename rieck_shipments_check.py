@@ -120,8 +120,8 @@ with st.expander("How it works", expanded=False):
     st.markdown(
         """
         **Steps**
-        1. Upload the Excel that contains a column named **`Shipment No.`** (your column B).
-        2. Provide the processed files either by **uploading multiple files** or **uploading a ZIP of the processed folder**.
+        1. Upload the Excel that contains a column named **`Shipment No.`** (your column B). Create this file in BC from the list Posted Warehouse Shipments. (Filter for Rieck, and customer not Nordisk)
+        2. Provide the processed files either by **uploading multiple files** or **uploading a ZIP of the processed folder**. (Download all the Posted Sales Shipment files from Rieck > Processed folder on SharePoint)
         3. Click **Run check** to compare.
         4. Download the **Missing Shipments** as an Excel file.
 
